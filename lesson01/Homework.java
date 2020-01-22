@@ -1,30 +1,40 @@
 package lesson01;
 
 public class Homework {
-        //Пустой проект с методом main();
-        public static void main(String[] args) {
-            System.out.println("Hello, Java!" + 14 + " January " + 2020);
-    /*Создание примитивных переменных и их инициализация.
-    Виды примитивных переменных: byte, short, int, long, float, double, char, boolean     */
-            byte a = 126;
-            short b = 3266;
-            int c = 2586;
-            long d = (a + b) * c;
-            System.out.println("(a + b) * c = " + d);
-            float e = 284.4f;
-            double f = 34.15;
-            double g = e / f;
-            System.out.println("e / f = " + g);
-            char h = 'J';
-            System.out.println(h);
-            boolean z = true;
-            boolean x = false;
-            System.out.println("z=" + z + "  x=" + x);
-            System.out.println("z|x=" + (z | x));
-            System.out.println("z&x=" + (z & x));
-        }
+//Пустой проект с методом main();
+    public static void main(String[] args) {
 
-        // Написать метод вычисляющий выражение a*(b+(c/d)) и возвращающий результат, где a, b, c, d, входные параметры этого метода
+        System.out.println("Hello, Java!" + 14 + " January " + 2020);
+    }
+}
+
+/*Создание примитивных переменных и их инициализация.
+Виды примитивных переменных: byte, short, int, long, float, double, char, boolean.  */
+public static void main(String[] args) {
+    byte a = 126;
+    System.out.println(a);
+    short b = 4567;
+    System.out.println(b);
+    int c = 65535;
+    System.out.println(c);
+    long d = 1_000_000L;
+    System.out.println(d);
+    float e = 284.4f;
+    System.out.println(e);
+    double f = 34.15;
+    System.out.println(f);
+    char h = 'J';
+    char g = '@';
+    System.out.println(h + g);
+    boolean z = true;
+    boolean x = false;
+    System.out.println("z=" + z + "  x=" + x);
+    System.out.println("z|x=" + (z | x));
+    System.out.println("z&x=" + (z & x));
+}
+}
+
+// Написать метод вычисляющий выражение a*(b+(c/d)) и возвращающий результат, где a, b, c, d, входные параметры этого метода
 
         public static double Task(double a, double b, double c, double d) {
             return a * (b + (c / d));
