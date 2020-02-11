@@ -9,6 +9,8 @@ public class Homework {
 число чем загаданное, или меньше. после игры выводится запрос - "Повторить игру ещё раз?"
  1 - да (повторить) / 0 - нет.
          */
+
+
         public static void main(String[] args) {
             System.out.println("Задача №1 Угадай число");
             Random rand = new Random();
@@ -30,6 +32,8 @@ public class Homework {
             } while (scan.nextInt() == 1);
         }
     }
+
+
 
         import java.util.Arrays;
         import java.util.Random;

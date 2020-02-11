@@ -45,5 +45,6 @@ public class Homework {
 
 
 
+
 // Второй вариант
 import java.text.MessageFormat;

@@ -73,6 +73,7 @@ public static void main(String[] args) {
             return false;
         }
     }
+
     /*Написать метод, которому в качестве параметра передаётся строка, обозначающая имя.
     Метод должен вывести в консоль "Привет, указанное имя!"    */
     public static void hey(String name) {

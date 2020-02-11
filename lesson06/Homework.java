@@ -5,6 +5,7 @@ abstract class Animals {
     private int run;
     private double jump;
 
+
     public Animals(String name, int run, double jump) {
         super();
         this.name = name;
@@ -49,6 +50,7 @@ abstract class Animals {
 }
 
 
+
 public class Cat extends Animals {
     private int age;
 
@@ -87,6 +89,7 @@ public class Cat extends Animals {
                 '}';
     }
 }
+
 
 
 public class Dog extends Animals {

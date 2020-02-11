@@ -77,6 +77,8 @@ public class Homework {
 Для усложнения задачи, пользоваться вспомогательными массивами нельзя.
  */
 
+
+
 public static int[] shiftMethod(int[] array, int shift) {
         if (shift != 0) {
 // Оптимизируем сдвиг через деление по модулю

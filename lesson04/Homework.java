@@ -3,6 +3,7 @@ package lesson04;
 import java.util.Random;
 import java.util.Scanner;
 
+
 public class TicTacToe {
     public static final char DOT_EMPTY = '*';
     public static final char DOT_X = 'X';
