@@ -5,6 +5,7 @@ package lesson07;
 Если в тарелке мало еды то кот не ест, тарелка должна наполняться едой, чтобы все коты поели.
  */
 
+
 public class HomeworkCat {
 
     private final String name;
