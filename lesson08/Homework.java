@@ -10,8 +10,6 @@ public abstract class AGamer {
 
 
 
-
-
 public class Player extends AGamer{
     MainGameField gameField;
     int isShotReady = 1;
@@ -34,8 +32,6 @@ public class Player extends AGamer{
         return gameField.checkWin(this.sign);
     }
 }
-
-
 
 
 
